@@ -1,0 +1,38 @@
+@body-bg-color: #f5f5f5;
+@navbar-bg-color: #ff6600;
+
+body {
+  padding-top: 70px;
+  background-color: @body-bg-color;
+}
+
+.navbar {
+  background-color: @navbar-bg-color;
+}
+
+.navbar-nav {
+  .active {
+    > .nav-link {
+      background-color: darken(@navbar-bg-color, 15%);
+    }
+  }
+}
+
+.color-mixin(@color) {
+  color: @color;
+  background-color: lighten(@color, 60%);
+}
+
+h2 {
+  .color-mixin(@navbar-bg-color);
+}
+
+h3 {
+  .color-mixin(@navbar-bg-color);
+}
+
+.row {
+  background-color: #fff;
+}
+
+

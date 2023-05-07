@@ -1,0 +1,45 @@
+/* Set body background to light grey */
+body {
+    background-color: #f5f5f5;
+  }
+  
+  /* Set navbar background to orange */
+  .navbar {
+    background-color: #ff6600;
+  }
+  
+  /* Set active nav link background to darker orange */
+  .navbar-nav .active > .nav-link {
+    background-color: #cc5500;
+  }
+  
+  /* Set h2 and h3 font color to orange */
+  h2, h3 {
+    color: #ff6600;
+  }
+  
+  /* Set background color for all sections */
+  .row {
+    background-color: #fff;
+  }
+  
+  /* Set bottom margin for all sections */
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  /* Set background color for logo and mission image */
+  .img-fluid {
+    background-color: #fff;
+  }
+  
+  /* Set padding for logo and mission image */
+  .col-md-4 img, .col-md-6 img {
+    padding: 10px;
+  }
+  
+  /* Set font color for copyright text */
+  footer p {
+    color: #666;
+  }
+  
